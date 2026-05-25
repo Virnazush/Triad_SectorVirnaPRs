@@ -872,3 +872,12 @@ Entries:
   id: 2224
   time: '2026-05-24T12:51:37.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/122
+- author: Virnazush
+  changes:
+    - type: Tweak
+      message: Spray painters are now available in loadout.
+    - type: Tweak
+      message: Spray painters now have more pipe color options.
+  id: 2225
+  time: '2026-05-25T18:03:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/129
