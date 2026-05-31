@@ -130,13 +130,13 @@
         state: "creampie_moth"
         visible: false
   - type: Inventory
+    speciesId: moth #Triad fixed this so sprites work correctly for fuzzy moff fellas.
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
-
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -152,4 +152,3 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
-

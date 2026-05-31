@@ -34,7 +34,7 @@
     eyes: ClothingEyesGlassesSecurity
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
-    belt: ClothingBeltHolsterFilled
+    neck: ClothingBeltHolsterFilled #Triad Shoulder Holster is now a Neck Item, Tie Omitted for functionality
   storage:
     back:
     - Flash

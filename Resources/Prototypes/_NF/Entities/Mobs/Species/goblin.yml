@@ -107,6 +107,8 @@
         probability: 0.2
   - type: Rummager # DeltaV Code
   - type: AlwaysTriggerMousetrap # DeltaV Code
+  - type: Inventory #Triad added speciesId so goblin can have dedicated sprites
+    speciesId: goblin #Triad End
 
 - type: entity
   save: false

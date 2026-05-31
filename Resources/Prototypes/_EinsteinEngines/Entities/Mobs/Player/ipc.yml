@@ -93,6 +93,7 @@
   - type: SiliconDownOnDead
   - type: Inventory
     templateId: ipc
+    speciesId: ipc #Triad, added speciesId for IPCs so they can have dedicates sprites
   - type: GuideHelp
     guides:
     - IPC
@@ -142,3 +143,4 @@
     undergarmentBottom: null # Triad, disable IPC default underwear
   - type: Inventory
     templateId: ipc
+    speciesId: ipc #Triad, added speciesId for IPCs so they can have dedicates sprites

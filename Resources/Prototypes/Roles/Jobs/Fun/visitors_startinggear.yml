@@ -291,9 +291,8 @@
     jumpsuit: ClothingUniformJumpsuitDetective
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatFedoraBrown
-    neck: ClothingNeckTieDet
+    neck: ClothingBeltHolsterFilled #Triad Shoulder Holster is now a Neck Item, Tie Omitted for functionality
     id: VisitorPDA
-    belt: ClothingBeltHolsterFilled
     back: ClothingBackpackSecurity
     ears: ClothingHeadsetSecurity
     eyes: ClothingEyesGlassesSecurity
@@ -309,9 +308,8 @@
     jumpsuit: ClothingUniformJumpsuitDetectiveGrey
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatFedoraGrey
-    neck: ClothingNeckTieDet
+    neck: ClothingBeltHolsterFilled #Triad Shoulder Holster is now a Neck Item, Tie Omitted for functionality
     id: VisitorPDA
-    belt: ClothingBeltHolsterFilled
     back: ClothingBackpackSatchelSecurity
     ears: ClothingHeadsetSecurity
     eyes: ClothingEyesGlassesSecurity

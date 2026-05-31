@@ -30,13 +30,13 @@
     gloves: ClothingHandsGlovesHeavyGoldenTrim
     back: ClothingBackpackSatchelLeatherFilledNavyOfficer
     outerClothing: ClothingOuterArmourInvisible
-    neck: ExecutiveIDCard
+    neck: ClothingBeltHolsterFilledCentComm #Triad Belt Holster is now a Neck Item, Omitted belt line for functionality. I'm only doing this because I dont want people to scream if something doesnt work.
     id: NavyOfficerPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltHolsterFilledCentComm # Todo - Give the officer a sabre
     pocket1: BoxFolderCentCom
   inhand:
   - BriefcaseCentcomm
+  - ExecutiveIDCard #Triad put the ID card here.
 
 # Navy Captain
 
@@ -143,15 +143,14 @@
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackSatchelLeatherFilledSpecOps
     outerClothing: ClothingOuterArmourInvisible
-    neck: ExecutiveIDCard
+    neck: ClothingBeltHolsterFilledCentComm #Triad Belt Holster is now a Neck Item, Omitted belt line for functionality. I'm only doing this because I dont want people to scream if something doesnt work.
     id: SpecialOperationsOfficerPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltHolsterFilledCentComm
     suitstorage: WeaponRifleAnnie
     pocket1: WeaponRevolverMateba
   inhand:
   - BriefcaseCentcomm
-
+  - ExecutiveIDCard #Triad put the ID card here.
 
 # Diplomat
 

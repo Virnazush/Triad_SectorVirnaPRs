@@ -319,8 +319,8 @@
     jumpsuit: ClothingUniformJumpsuitDetective
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatFedoraBrown
-    neck: ClothingNeckTieDet
-    belt: ClothingBeltHolster
+    # neck: ClothingNeckTieDet Triad commented this out because the Holster is taking the neck slot now.
+    neck: ClothingBeltHolster
     outerClothing: ClothingOuterCoatDetectiveLoadout
 
 - type: startingGear
@@ -329,8 +329,8 @@
     jumpsuit: ClothingUniformJumpsuitDetectiveGrey
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatFedoraGrey
-    neck: ClothingNeckTieDet
-    belt: ClothingBeltHolster
+    # neck: ClothingNeckTieDet Triad commented this out because the Holster is taking the neck slot now.
+    neck: ClothingBeltHolster
     outerClothing: ClothingOuterVestDetective
 
 - type: startingGear

@@ -128,6 +128,7 @@
         visible: false
   - type: Inventory
     templateId: arachnid
+    speciesId: arachnid #Triad fixed this so sprites work correctly for spider fellas.
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
 
 

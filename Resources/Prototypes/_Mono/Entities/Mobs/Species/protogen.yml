@@ -52,6 +52,7 @@
     - Hair
     - Snout
   - type: Inventory
+    speciesId: protogen #Triad fixed this so sprites work correctly for protogen so they can have dedicated sprites
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -87,6 +88,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Inventory
+    speciesId: protogen #Triad fixed this so sprites work correctly for protogen so they can have dedicated sprites
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

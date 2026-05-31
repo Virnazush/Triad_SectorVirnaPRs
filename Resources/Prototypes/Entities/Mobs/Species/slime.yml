@@ -122,6 +122,7 @@
         Asphyxiation: -1.0
     maxSaturation: 15
   - type: Inventory
+    speciesId: slime #Triad fixed this so sprites work correctly for slime
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

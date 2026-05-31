@@ -27,3 +27,11 @@
   price: 0 # Mono
   equipment:
     head: ClothingHeadHatBeretCommander
+
+#Triad
+- type: loadout
+  id: MercenaryClothingHeadHatCampaignCover
+  price: 0
+  equipment:
+    head: ClothingHeadHatCampaignCover
+#Triad End

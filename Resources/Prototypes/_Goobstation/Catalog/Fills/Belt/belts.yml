@@ -21,9 +21,12 @@
   parent: ClothingBeltHolster
   suffix: Filled, N1984
   components:
-  - type: StorageFill
-    contents:
-    - id: WeaponPistolN1984
+  - type: ContainerFill
+    containers:
+      weapon:
+      - WeaponPistolN1984
+      magazine1:
+      - Magazine45_magnumPistolFMJ
 
 - type: entity
   id: ClothingBeltSheathFilledNavyOfficer

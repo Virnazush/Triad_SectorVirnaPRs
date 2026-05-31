@@ -1,0 +1,217 @@
+- type: entity
+  abstract: true
+  parent: ClothingNeckBase
+  id: BaseClothingNeckHolster
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+  - type: Clothing
+  - type: ItemSlots
+    slots:
+      weapon:
+        priority: 4
+        name: clothing-neck-sidearm
+        whitelist:
+          tags:
+          - Sidearm
+      magazine1:
+        priority: 3
+        name: clothing-neck-magazine
+        whitelist:
+          tags:
+          - SpeedLoader45_magnumFMJ
+          - SpeedLoader9x19mmFMJ
+          - SpeedLoader556x45mmFMJ
+          - Magazine9x19mmPistolFMJ
+          - Magazine45_ACPPistolFMJ
+          - Magazine45_magnumPistolFMJ
+          - Magazine57x28mmFMJBox
+          - Magazine46x30mmPistolFMJ
+          - Magazine55_SAMPistol
+      magazine2:
+        priority: 3
+        name: clothing-neck-magazine
+        whitelist:
+          tags:
+          - SpeedLoader45_magnumFMJ
+          - SpeedLoader9x19mmFMJ
+          - SpeedLoader556x45mmFMJ
+          - Magazine9x19mmPistolFMJ
+          - Magazine45_ACPPistolFMJ
+          - Magazine45_magnumPistolFMJ
+          - Magazine57x28mmFMJBox
+          - Magazine46x30mmPistolFMJ
+          - Magazine55_SAMPistol
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      icon-gun:
+        whitelist:
+          tags:
+          - Sidearm
+      icon-magazine:
+        whitelist:
+          tags:
+          - SpeedLoader45_magnumFMJ
+          - SpeedLoader9x19mmFMJ
+          - SpeedLoader556x45mmFMJ
+          - Magazine9x19mmPistolFMJ
+          - Magazine45_ACPPistolFMJ
+          - Magazine45_magnumPistolFMJ
+          - Magazine57x28mmFMJBox
+          - Magazine46x30mmPistolFMJ
+          - Magazine55_SAMPistol
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      weapon: !type:ContainerSlot {}
+      magazine1: !type:ContainerSlot {}
+      magazine2: !type:ContainerSlot {}
+
+- type: entity
+  abstract: true
+  parent: ClothingNeckBase
+  id: BaseClothingNeckHolsterGF
+  components:
+  - type: Item
+    size: Normal
+  - type: Sprite
+  - type: Clothing
+  - type: ItemSlots
+    slots:
+      weapon1:
+        priority: 4
+        name: clothing-neck-sidearm
+        whitelist:
+          tags:
+          - Sidearm
+          - MachinePistol
+      weapon2:
+        priority: 4
+        name: clothing-neck-sidearm
+        whitelist:
+          tags:
+          - Sidearm
+          - MachinePistol
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      icon-gun:
+        whitelist:
+          tags:
+          - Sidearm
+          - MachinePistol
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      weapon1: !type:ContainerSlot {}
+      weapon2: !type:ContainerSlot {}
+
+- type: entity
+  parent: BaseClothingNeckHolster
+  id: ClothingBeltHolster #Triad cannot change ID or else it will break everything using the OG shoulder holster
+  name: shoulder holster
+  description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Neck/holster_shoulder.rsi/
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: _Triad/Clothing/Neck/holster_shoulder.rsi/
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+
+- type: entity
+  parent: BaseClothingNeckHolster
+  id: ClothingBeltSyndieHolster #Triad cannot change ID or else it will break everything using the OG syndie shoulder holster
+  name: syndicate shoulder holster
+  description: "A holster to carry a handgun and ammo. WARNING: It's red."
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Neck/syndieholster.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: _Triad/Clothing/Neck/syndieholster.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+
+- type: entity
+  parent: BaseClothingNeckHolster
+  id: ClothingNeckThighHolster
+  name: drop leg holster
+  description: A holster designed to be strapped to the thigh for easy access to a sidearm. Provides additional pouch for a magazine.
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Neck/holster_thigh.rsi
+    layers:
+    - state: icon
+      color: "#515151"
+  - type: Clothing
+    sprite: _Triad/Clothing/Neck/holster_thigh.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK
+        color: "#515151"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#515151"
+      right:
+      - state: inhand-right
+        color: "#515151"
+  - type: ItemMapper
+    sprite: _Triad/Clothing/Neck/holster_thigh.rsi
+
+- type: entity
+  parent: BaseClothingNeckHolsterGF
+  id: ClothingNeckGFHolster
+  name: Gunfighter Holsters
+  description: "That was some fancy shooting, you're pretty good."
+  components:
+  - type: Sprite
+    sprite: _Triad/Clothing/Neck/holster_gunfighter.rsi/
+    layers:
+    - state: icon
+      color: "#81613C"
+  - type: Clothing
+    sprite: _Triad/Clothing/Neck/holster_gunfighter.rsi/
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK
+        color: "#81613C"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#81613C"
+      right:
+      - state: inhand-right
+        color: "#81613C"
+  - type: ItemMapper
+    sprite: _Triad/Clothing/Neck/holster_gunfighter.rsi/
+    mapLayers:
+      icon-gun:
+        whitelist:
+          tags:
+          - Sidearm
+          - MachinePistol

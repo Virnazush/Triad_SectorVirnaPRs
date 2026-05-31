@@ -126,6 +126,7 @@
     - Dead
   - type: Inventory
     #templateId: diona #Monolith Change: Adds Boot Slots so Dionae can wear Modsuits
+    speciesId: diona #Triad fixed this so sprites work correctly for Diona
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

@@ -467,3 +467,8 @@
           whitelist:
             tags:
               - Cartridge46x30mmFMJ
+  #Triad
+  - type: Tag
+    tags:
+    - MachinePistol
+  #Triad End

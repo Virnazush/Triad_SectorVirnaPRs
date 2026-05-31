@@ -120,6 +120,11 @@
           whitelist:
             tags:
               - Cartridge57x28mmFMJ
+  #Triad Tag created for use with holster
+  - type: Tag
+    tags:
+    - MachinePistol
+  #Triad End
 
 - type: entity
   name: CS C-20r submachine gun (9x19mm)
@@ -297,3 +302,8 @@
     price: 1000
   - type: PirateBountyItem # Mono
     id: StandardFactionLongarm
+  #Triad Tag created for use with holster
+  - type: Tag
+    tags:
+    - MachinePistol
+  #Triad End

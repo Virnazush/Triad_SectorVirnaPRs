@@ -416,7 +416,6 @@
   - ContractorClothingBeltPilot
   - ContractorClothingBeltPilotFilled
   - ContractorClothingBeltBandolier
-  - ContractorClothingBeltHolster
   - ContractorClothingBeltChaplainSash
   - ContractorClothingBeltChaplainSashFilled
   - ContractorBooksBag
@@ -637,6 +636,7 @@
   name: loadout-group-contractor-neck
   minLimit: 0
   loadouts:
+  - ContractorClothingBeltHolster #Triad Shoulder Holster is now a Neck Item.
   - ContractorClothingNeckScarfStripedBlack
   - ContractorClothingNeckScarfStripedBlue
   - ContractorClothingNeckScarfStripedBrown
@@ -754,6 +754,7 @@
   - ContractorClothingEyesGlassesChemical
   - ContractorClothingEyesHudDiagnostic
   - ContractorClothingEyesGlassesMeson
+  - ContractorClothingEyesGlassesMesonBRNZ #Triad
   - ContractorClothingEyesHudMedical
   - ContractorClothingEyesPunkGoggles # Punkish (Randomized visuals)
   - ContractorClothingEyesPunkInfoShades # Punkish (Randomized visuals)
