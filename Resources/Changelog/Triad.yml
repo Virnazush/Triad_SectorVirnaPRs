@@ -1014,3 +1014,88 @@ Entries:
   id: 2239
   time: '2026-05-29T16:50:34.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/132
+- author: runicguardian
+  changes:
+    - type: Tweak
+      message: Skub now persists on ship save.
+  id: 2240
+  time: '2026-05-30T17:15:06.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/160
+- author: IngvarJackal
+  changes:
+    - type: Fix
+      message: ongoing tasks in lathes don't break ship saving any more
+  id: 2241
+  time: '2026-05-30T17:18:35.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/154
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: STC can now use the communication console
+  id: 2242
+  time: '2026-05-30T17:20:05.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/163
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: Reptilians can now have hair, though not facial hair.
+  id: 2243
+  time: '2026-05-30T17:23:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/77
+- author: SquishyEmmaaaa
+  changes:
+    - type: Fix
+      message: Vodka bottles now fit in the booze dispenser.
+  id: 2244
+  time: '2026-05-30T17:27:53.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/158
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Forced accents have been removed from most clothings. Some exceptions
+        were made such as cat/doggy ears, muzzles, and cluwne masks.
+  id: 2245
+  time: '2026-05-30T17:47:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/157
+- author: IrkallaEpsilon
+  changes:
+    - type: Remove
+      message: The vent clog event has been disabled.
+  id: 2246
+  time: '2026-05-30T19:00:08.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/146
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: >-
+        Health analyzers will now become active again if you move back into
+        range of your patient!
+  id: 2247
+  time: '2026-05-30T19:24:22.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/149
+- author: SislenC
+  changes:
+    - type: Tweak
+      message: 'Removed damage from DT-12 Lawbringer''s disabler round to match PR #113.'
+  id: 2248
+  time: '2026-05-30T23:05:09.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/167
+- author: Monolith
+  changes:
+    - type: Add
+      message: Added heavy-duty airlocks.
+    - type: Tweak
+      message: Buffed high-sec airlock HP.
+    - type: Add
+      message: Add spraypainter for heavy duty airlock
+  id: 2249
+  time: '2026-05-30T23:50:04.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/144
+- author: DDrakov
+  changes:
+    - type: Remove
+      message: Remove datafarm outright
+  id: 2250
+  time: '2026-06-01T04:01:55.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/170
